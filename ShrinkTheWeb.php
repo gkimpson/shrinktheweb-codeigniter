@@ -41,13 +41,13 @@ class ShrinkTheWeb
 	 * Access Key
 	 * @var string
 	 */
-	public $access_key = 'e81e401032dac9d';
+	public $access_key = 'xxxxxxxxxxxxxxxx';
 
 	/**
 	 * Secret 'key'
 	 * @var string
 	 */
-	public $secret_key = '209d7';
+	public $secret_key = 'xxxxx';
 
 	public $thumbnail_uri = 'http://www.yourdomain.com/stw_thumbs/';
 	public $thumbnail_dir = 'stw_thumbs/';
