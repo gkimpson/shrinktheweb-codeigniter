@@ -9,7 +9,7 @@ $config = array(
 			'secret_key'	=> 'XXXXX'
 		);
 
-# load library with api_key & secret (supplied from URL2PNG with a valid account)	
+# load library with access_key & secret_key (supplied from ShrinkTheWeb with a valid account)	
 $this->load->library('shrinktheweb', $config);
 
 $url = 'bbc.co.uk';
