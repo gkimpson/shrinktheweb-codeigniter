@@ -349,7 +349,7 @@ class ShrinkTheWeb
         $sFile = $this->thumbnail_dir . $sFilename;
         // Check if file exists
         if (file_exists($sFile)) {
-            $sReturnName = THUMBNAIL_URI . $sFilename;
+            $sReturnName = $this->thumbnail_uri . $sFilename;
         }
 
         return $sReturnName;
@@ -453,7 +453,7 @@ class ShrinkTheWeb
                 $isDownloaded = $this->_downloadRemoteImageToLocalPath($sImageUrl, $sFile);
 
                 if ($isDownloaded == true) {
-                    return THUMBNAIL_URI . $sFilename;
+                    return $this->thumbnail_uri . $sFilename;
                 }
             }
         }
