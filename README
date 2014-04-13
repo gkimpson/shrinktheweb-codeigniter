@@ -4,15 +4,15 @@ PHP Codeigniter library for ShrinkTheWeb.com - API for generating website thumbn
 
 # Usage #
 
-		$config = array(
-					'access_key'	=> 'XXXXXXXXXXXXXXXX',
-					'secret_key'	=> 'XXXXX'
-				);
-		
-		# load library with api_key & secret (supplied from URL2PNG with a valid account)	
-		$this->load->library('shrinktheweb', $config);
+$config = array(
+			'access_key'	=> 'XXXXXXXXXXXXXXXX',
+			'secret_key'	=> 'XXXXX'
+		);
 
-		$url = 'bbc.co.uk';
+# load library with api_key & secret (supplied from URL2PNG with a valid account)	
+$this->load->library('shrinktheweb', $config);
 
-		# display the image to the browser
-		echo $this->shrinktheweb->getThumbnailHTML($url);
+$url = 'bbc.co.uk';
+
+# display the image to the browser
+echo $this->shrinktheweb->getThumbnailHTML($url);
